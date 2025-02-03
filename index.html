@@ -11,38 +11,38 @@
 <main>
     <div class="calculator">
         <div>
-            <textarea class="screen"></textarea>
+            <input class="input" />
         </div>
         <div class="keypad">
             <div class="button-group first-row">
-                <button  style="color: red;" onclick="clearScreen()">C</button>
-                <button onclick="bracket()">( )</button>
-                <button onclick="modulus()">%</button>
-                <button onclick="div()">&divide;</button>
+                <button class="button"  style="color: red;" onclick="clearScreen()">C</button>
+                <button class="button" >( )</button>
+                <button class="button" >%</button>
+                <button class="button" >&divide;</button>
             </div>
             <div class="button-group">
-                <button onclick="handleClick(7)" >7</button>
-                <button onclick="handleClick(8)" >8</button>
-                <button onclick="handleClick(9)" >9</button>
-                <button onclick="mul()">&times;</button>
+                <button class="button" >7</button>
+                <button class="button" >8</button>
+                <button class="button" >9</button>
+                <button class="button" >x</button>
             </div>
             <div class="button-group">
-                <button onclick="handleClick(4)">4</button>
-                <button onclick="handleClick(5)">5</button>
-                <button onclick="handleClick(6)">6</button>
-                <button onclick="minus()">&minus;</button>
+                <button class="button" >4</button>
+                <button class="button" >5</button>
+                <button class="button" >6</button>
+                <button class="button" >-</button>
             </div>
             <div class="button-group">
-                <button onclick="handleClick(1)">1</button>
-                <button onclick="handleClick(2)">2</button>
-                <button onclick="handleClick(3)">3</button>
-                <button onclick="plus()">&plus;</button>
+                <button class="button" >1</button>
+                <button class="button" >2</button>
+                <button class="button" >3</button>
+                <button class="button"  onclick="plus()">+</button>
             </div>
             <div class="button-group">
-                <button onclick="handleClick(0)">0</button>
-                <button onclick="decimalValue()">.</button>
-                <button style="color:white; background-color: rgb(162, 25, 114);"
-                 class="flex-gorw-2" onclick="equal()">&equals;</button>
+                <button class="button" >0</button>
+                <button class="button" >.</button>
+                <button class="button"  style="color:white; background-color: rgb(162, 25, 114);"
+                 class="flex-gorw-2">=</button>
             </div>
         </div>
        
